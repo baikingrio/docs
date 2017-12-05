@@ -1,5 +1,7 @@
 site_name: Bmob文档中心
-theme_dir: theme/mydocs2
+theme:
+    name: mkdocs
+    custom_dir: theme/bmobdocs
 docs_dir: mds
 site_dir: docs
 repo_url: https://github.com/bmob/bmobdocs/

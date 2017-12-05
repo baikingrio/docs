@@ -47,6 +47,8 @@ pages:
         - '开发文档': 'cloud_function/android/index.md'
     - 'iOS SDK':
         - '开发文档': 'cloud_function/ios/index.md'
+    - 'Java 云函数':
+        - '开发文档': 'cloud_function/java/index.md'
     - 'JavaScript':
         - '开发文档': 'cloud_function/javascript/index.md'
     - 'C#':

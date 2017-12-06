@@ -143,7 +143,7 @@
             </div>
         </div><!--//item-inner-->
     </div><!--//item-->
-    <div class="item item-blue col-md-4 col-sm-6 col-xs-6">
+    <div class="item item-blue col-md-4 col-sm-6 col-xs-6 col-md-offset-4">
         <div class="item-inner">
             <div class="icon-holder">
                <i class="icon o7"></i>
@@ -156,7 +156,7 @@
                   <li><a href="./other/bql/index.html" class="intro" >BQL详细指南</a></li>
                   <li><a href="./other/data_safety/index.html" class="intro" >数据与安全</a></li>
                   <!-- <li><a href="./other/donate/index.html" class="intro" >打赏Bmob</a></li> -->
-                  <li><a href="./video/index.html" class="intro" >视频教程</a></li>
+                  <li><a href="./video/index.html" class="intro" target="_blank">视频教程</a></li>
                 </ul>
             </div>
         </div><!--//item-inner-->

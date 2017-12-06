@@ -8,6 +8,7 @@ code, kbd, pre, samp {
 .nav.bs-sidenav>li.main{ padding-left: 0px;}
 .nav.bs-sidenav>li.active{ background: none !important;}
 .nav.bs-sidenav>li.active ul.nav-l2{ padding-left: 20px}
+.nav.bs-sidenav>li.active>a{background:#e9f3ff !important;}
 
 .nav>li>a:hover, .nav>li>a:focus {
     text-decoration: none;
@@ -17,6 +18,8 @@ code, kbd, pre, samp {
 .nav.bs-sidenav li a{ color: #666; font-size: 12px;}
 .navbar-nav>li>a{ padding-top: 20px; padding-bottom: 20px}
 
+.bs-sidebar.nav>li>a{ padding: 2px 20px;  }
+.bs-sidebar .nav .nav{ margin-bottom: 0px !important;}
 .bs-sidebar .nav > li > a:hover, .bs-sidebar .nav > li > a:focus ,.bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a, .bs-sidebar .nav > .active:focus > a{ border-right: none !important;}
 .bs-sidebar .nav > .active > a{ color: #3891f8}
 .nav.bs-sidenav>li a{ font-size: 14px;}
@@ -88,8 +91,10 @@ code {
     background-color: #f9f2f4;
     border-radius: 2px;
 }
-#go-top{ position: fixed; bottom: 50px; right: 30px; width: 50px; height: 50px; background: #ccc; font-size:24px; text-align: center; color: #FFF; cursor: pointer; display: none; line-height: 50px;}
-#go-top:hover{ background-color: #1995dc }
+#go-top{ position: fixed; bottom: 80px; right: 30px; width: 50px; height: 50px; background: #ccc; font-size:24px; text-align: center; color: #FFF; cursor: pointer; display: none; line-height: 50px;}
+#go-top:hover,#back:hover{ background-color: #1995dc; text-decoration: none}
+
+#back{ background: #ccc; color: #FFF; position: fixed; bottom: 25px; right: 30px; font-size: 12px; height: 50px; width: 50px; display: flex; justify-content: center; align-items: center }
 
 .navbar{ background-image: none;}
 
@@ -217,3 +222,9 @@ ul.links li a > i {
 .icon.o5{ background:url("../img/5.png")}
 .icon.o6{ background:url("../img/6.png")}
 .icon.o7{ background:url("../img/7.png")}
+
+#main404 {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}

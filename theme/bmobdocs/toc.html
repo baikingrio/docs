@@ -36,11 +36,23 @@
 										{% endif %}
 									</li>
 								{% endfor %}
+							{% else %}
+								{% if nav_item2 == page %}
+									{% for toc_item in page.toc %}
+										<li class="{% if toc_item.active %}active {% endif %}"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a>
+											{% for toc_item in toc_item.children %}
+											<ul class="nav nav-l2">
+												<li><a class="itm-l2" href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+											</ul>
+											{% endfor %}
+										</li>
+									{% endfor %}
+								{% endif %}
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				{% endif %}
 			{% endif %}
-			{% endif %}
-			{% endfor %}
-			{% endif %}
-			{% endif %}
-			{% endfor %}
+		{% endfor %}
 	</ul>
 </div>
